@@ -16,10 +16,10 @@
     <a href="http://cm3028test.azurewebsites.net/helloPrinter.php?query=Pluto">Pluto</a><br>
 
     <form action="helloPrinter.php" method="post">
-        <label>Full name</label><input type=“text” name=“name”>
-        <label>DOB</label><input type=“date” name=“dob”>
-        <label>Male</label><input type=“radiobutton” name=“gender” >
-        <label>Female</label><input type=“radio” name=“gender” >
+        <label>Full name</label><input type="text" name="name">
+        <label>DOB</label><input type="date" name="dob">
+        <label>Male</label><input type="radio" name="gender" >
+        <label>Female</label><input type="radio" name="gender" >
         <label>Strength</label><input type="checkbox" name="check1" >
         <label>Invulnerability</label><input type="checkbox" name="check2" >
         <input type="submit" value="Submit">
