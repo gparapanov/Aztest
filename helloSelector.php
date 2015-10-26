@@ -18,8 +18,8 @@
     <form action="helloPrinter.php" method="post">
         <label>Full name</label><input type=“text” name=“name”>
         <label>DOB</label><input type=“date” name=“dob”>
-        <label>Male</label><input type=“radiobutton” name=“gender” value="male">
-        <label>Female</label><input type=“radio” name=“gender” value="female">
+        <label>Male</label><input type=“radiobutton” name=“gender” >
+        <label>Female</label><input type=“radio” name=“gender” >
         <label>Strength</label><input type="checkbox" name="check1" >
         <label>Invulnerability</label><input type="checkbox" name="check2" >
         <input type="submit" value="Submit">
