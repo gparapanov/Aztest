@@ -7,8 +7,8 @@
         $query=$_GET["query"];
         echo "You have chosen ".$query."<br>";
 
-        $name=$_POST["name"];
-        $dob=$_POST["dob"];
+        $name=$_GET["name"];
+        $dob=$_GET["dob"];
         $gender;
         if(isset($_POST["gender"])){
             $gender=$_POST["gender"];
