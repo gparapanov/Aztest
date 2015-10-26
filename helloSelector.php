@@ -18,10 +18,10 @@
     <form action="helloPrinter.php" method="post">
         <label>Full name</label><input type="text" name="name">
         <label>DOB</label><input type="date" name="dob">
-        <label>Male</label><input type="radio" name="gender" >
-        <label>Female</label><input type="radio" name="gender" >
-        <label>Strength</label><input type="checkbox" name="check1" >
-        <label>Invulnerability</label><input type="checkbox" name="check2" >
+        <label>Male</label><input type="radio" name="gender" value="Male">
+        <label>Female</label><input type="radio" name="gender" value="Female">
+        <label>Strength</label><input type="checkbox" name="check1" value="strength" >
+        <label>Invulnerability</label><input type="checkbox" name="check2" value="invulnerability" >
         <input type="submit" value="Submit">
     </form>
 
