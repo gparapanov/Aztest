@@ -4,11 +4,8 @@
 <body>
 <p>
     <?php
-    echo "Hello World";
-    echo "Hello, world!";
-    echo "Hello," . " " . "world" . "!";
-    $donut="SARUMAN";
-    echo $donut." IS COMING";
+        $query=$_GET["query"];
+        echo "You have chosen ".$query;
     ?>
 </p>
 </body>
