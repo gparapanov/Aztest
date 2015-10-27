@@ -20,7 +20,7 @@
 
         // create a SQL query as a string
 
-        $sql_query = "SELECT * FROM 'marvelmovies' WHERE title LIKE('X-Men%')";
+        $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE('X-Men%')";
 
         // execute the SQL query
 
@@ -31,7 +31,7 @@
 
         while($row = $result->fetch_array()){
            // print out fields from row of data
-           echo "<p>" . $row . "</p>";
+           echo  $row['title'] . "<br>";
         }
 
         $result->close();
