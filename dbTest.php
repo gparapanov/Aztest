@@ -31,7 +31,7 @@
 
         while($row = $result->fetch_array()){
            // print out fields from row of data
-           echo "<p>" . $row['superheroName'] . "</p>";
+           echo "<p>" . $row . "</p>";
         }
 
         $result->close();
