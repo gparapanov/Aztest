@@ -16,7 +16,7 @@
         }
         $powers;
         if(isset($_POST["check1"])){
-            $powers=$_POST["check1"];
+            $powers=$_POST["check1"]." ";
         }
         if(isset($_POST["check2"])){
             $powers.=$_POST["check2"];
