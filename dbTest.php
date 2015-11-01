@@ -22,7 +22,7 @@
 
         $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE('X-Men%')";
         $sql_query2 ="SELECT * FROM marvelmovies where yearReleased<2010";
-        $sql_query3="SELECT * FROM marvelmovies where notes like ('%Oscar%;')";
+        $sql_query3="SELECT * FROM marvelmovies where notes like '%Oscar%'";
 
         // execute the SQL query
 
