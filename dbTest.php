@@ -35,16 +35,18 @@
 
         while($row = $result->fetch_array()){
            // print out fields from row of data
-           echo  "xmen movies<br>".$row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
-           echo "movies before 2010<br>". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+           echo  "xmen movies".$row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+
         }
+        echo "<br>";
         while($row = $result2->fetch_array()){
             // print out fields from row of data
-            echo "movies before 2010<br>". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+            echo "movies before 2010". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
         }
+        echo "<br>";
         while($row = $result3->fetch_array()){
             // print out fields from row of data
-            echo "movies with oscars<br>". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+            echo "movies with oscars". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
         }
 
         $result->close();
