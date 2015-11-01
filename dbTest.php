@@ -32,21 +32,21 @@
 
         // iterate over $result object one $row at a time
         // use fetch_array() to return an associative array
-
+        echo "xmen movies";
         while($row = $result->fetch_array()){
            // print out fields from row of data
-           echo  "xmen movies".$row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+           echo  $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
 
         }
-        echo "<br>";
+        echo "<br> movies before 2010<br>";
         while($row = $result2->fetch_array()){
             // print out fields from row of data
-            echo "movies before 2010". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+            echo "". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
         }
-        echo "<br>";
+        echo "<br> movies with oscars<br>";
         while($row = $result3->fetch_array()){
             // print out fields from row of data
-            echo "movies with oscars". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
+            echo "". $row['marvelMovieID']." ".$row['notes']." ".$row['productionStudio']." ".$row['title']." ".$row['yearReleased'] . "<br>";
         }
 
         $result->close();
